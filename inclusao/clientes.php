@@ -21,7 +21,7 @@
 <body>
     <div class="box">
         <form action="clientes.php" method="POST">
-            <fieldset>
+            <!--<fieldset>-->
                 <legend><b>Formulário de Clientes</b></legend>
                 <br>
                 <div class="inputBox">
@@ -69,7 +69,7 @@
                 </div>
                 <br><br>
                 <input type="submit" name="submit" id="submit">
-            </fieldset>
+            <!--</fieldset>-->
         </form>
     </div>
 </body>
