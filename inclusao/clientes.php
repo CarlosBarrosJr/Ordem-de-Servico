@@ -20,6 +20,8 @@
 
 <body>
 
+    <a href="../dashboard.php">Pagina Principal</a><br>
+
     <div class="box">
         <form action="clientes.php" method="POST">
             <!--<fieldset>-->

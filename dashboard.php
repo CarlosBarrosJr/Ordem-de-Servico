@@ -45,7 +45,7 @@
             </li>    
             <li><a href="#">consultas</a>
                 <ul>
-                    <li><a href="#">Clientes</a>
+                    <li><a href="conaltexcl/lista.php">Clientes</a>
                     <li><a href="#">Ordem Serviço</a>
                 </ul>
             </li>    
