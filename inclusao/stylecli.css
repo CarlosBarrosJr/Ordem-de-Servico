@@ -1,7 +1,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 
-    background-image: url('../imagens/papel.jpg');
+    
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -16,8 +16,8 @@ body{
     transform: translate(-50%,-50%);
     background-color: rgba(0, 0, 0, 0.6);
     padding: 20px;
-    padding-left: 450px;
-    padding-right: 450px;
+    padding-left: 350px;
+    padding-right: 350px;
     border-radius: 20px;
     width: 25%;
 }
@@ -27,11 +27,11 @@ fieldset{
 }
 
 legend{
-    /*border: 1px solid dodgerblue;*/
-    /*padding: 10px; */
+    border: 1px solid dodgerblue;
+    padding: 10px; 
     text-align: center;
-    /*background-color: dodgerblue;*/
-    /*border-radius: 8px;*/
+    background-color: dodgerblue;
+    border-radius: 8px;
 }
 .inputBox{
     
@@ -73,9 +73,9 @@ legend{
     border: none;
     padding: 15px;
     color: white;
-    font-size: 115px;
+    font-size: 15px;
     cursor: pointer;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 #submit:hover{
     background-image: linear-gradient(to right, rgb(0, 80, 172), rgb(80,19,195)); 

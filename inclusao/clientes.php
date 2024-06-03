@@ -38,20 +38,22 @@
                     <input type="tel" name="telefone" id="telefone" class="inputUser" required>
                     <label for="telefone" class="labelInput">Telefone</label>
                 </div>
-                <p>Sexo:</p>
-                <input type="radio" name="genero" id="feminino" value="Feminino" required>
-                <label for="feminino">Feminino</label>
-                <br>
-                <input type="radio" name="genero" id="masculino" value="masculino" required>
-                <label for="maasculino">Masculino</label>
-                <br>
-                <input type="radio" name="genero" id="outro" value="outro" required>
-                <label for="outro">Outro</label>
-                <br><br>
                 
-                <label for="data_nascimento"><b>Data de Nascimento :</b></label>
-                <input type="date" name="data_nascimento" id="data_nascimento" required>  
+                    <p>Sexo:</p>
+                    <input type="radio" name="genero" id="feminino" value="Feminino" required>
+                    <label for="feminino">Feminino</label>
+                    <br>
+                    <input type="radio" name="genero" id="masculino" value="masculino" required>
+                    <label for="maasculino">Masculino</label>
+                    <br>
+                    <input type="radio" name="genero" id="outro" value="outro" required>
+                    <label for="outro">Outro</label>
+                    <br><br>
                 
+                <div class="inputBox">
+                    <label for="data_nascimento"><b>Data de Nascimento :</b></label>
+                    <input type="date" name="data_nascimento" id="data_nascimento" required>  
+                </div>
                 <br><br>
                 <div class="inputBox">
                     <input type="text" name="cidade" id="cidade" class="inputUser" required>

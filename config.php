@@ -13,13 +13,13 @@
 
     $connCad = new MySQLi(HOST2, USER2, PASS2, BASE2);
 
-    if($connCad->connect_errno)
-    {
-        echo "Erro";
-    }
-    else 
-    {
-        echo "Conecção banco cadastro efetuado com sucesso";
-    }
+//    if($connCad->connect_errno)
+//    {
+//        echo "Erro";
+//    }
+//   else 
+//    {
+//        echo "Conecção banco cadastro efetuado com sucesso";
+//    }
 
 ?>
