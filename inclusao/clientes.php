@@ -14,11 +14,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Castro</title>
 
-    <link rel="stylesheet" href="../inclusao/stylecli.css">
+    <link rel="stylesheet" href="../inclusao/stylecliente.css">
     
 </head>
 
 <body>
+
     <div class="box">
         <form action="clientes.php" method="POST">
             <!--<fieldset>-->
@@ -38,7 +39,7 @@
                     <input type="tel" name="telefone" id="telefone" class="inputUser" required>
                     <label for="telefone" class="labelInput">Telefone</label>
                 </div>
-                
+                <div class="inputBox">
                     <p>Sexo:</p>
                     <input type="radio" name="genero" id="feminino" value="Feminino" required>
                     <label for="feminino">Feminino</label>
@@ -49,7 +50,7 @@
                     <input type="radio" name="genero" id="outro" value="outro" required>
                     <label for="outro">Outro</label>
                     <br><br>
-                
+                </div>
                 <div class="inputBox">
                     <label for="data_nascimento"><b>Data de Nascimento :</b></label>
                     <input type="date" name="data_nascimento" id="data_nascimento" required>  

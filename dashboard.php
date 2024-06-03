@@ -14,7 +14,7 @@
     
     <link rel="stylesheet" href="style.css">
 
-    <title>Sistema de Login</title>
+    <title>Sistema de Ordem de Serviço</title>
    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
@@ -27,11 +27,7 @@
             <?php 
                 
                 print "Olá, " . $_SESSION["nome"];
-                
-                date_default_timezone_set("America/Sao_Paulo");
-                print date("     d/M/Y ");
-                print date("G:i:s");
-
+            
                 print "<a href='logout.php' class='btn btn-danger'>Sair</a>";
         
             ?>  
