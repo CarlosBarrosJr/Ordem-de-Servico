@@ -16,15 +16,17 @@
 
     <link rel="stylesheet" href="../inclusao/stylecliente.css">
     
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.js" integrity="sha512-0XDfGxFliYJPFrideYOoxdgNIvrwGTLnmK20xZbCAvPfLGQMzHUsaqZK8ZoH+luXGRxTrS46+Aq400nCnAT0/w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
 </head>
 
 <body>
+    <button onclick="location.href='../dashboard.php'">Retornar ao Menu</button>
 
-    <a href="../dashboard.php">Pagina Principal</a><br>
-
-    <div class="box">
+    <div class="box">       
         <form action="clientes.php" method="POST">
-            <!--<fieldset>-->
+            
                 <legend><b>Formulário de Clientes</b></legend>
                 <br>
                 <div class="inputBox">
@@ -73,8 +75,13 @@
                     <label for="endereco" class="labelInput">Endereço</label>
                 </div>
                 <br><br>
+
+                <script>
+                    $('#telefone').mask('(00) 0 0000-0000');    
+                </script>
+
                 <input type="submit" name="submit" id="submit">
-            <!--</fieldset>-->
+            
         </form>
     </div>
 </body>

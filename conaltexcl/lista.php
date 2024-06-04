@@ -30,9 +30,10 @@
 
     </head>
 
+    <button onclick="location.href='../dashboard.php'">Retornar ao Menu</button>
+
     <body>
         <div class="box">
-            <a href="../dashboard.php">Pagina Principal</a><br>
             <h1>Lista de Usuario Cadastrados</h1>
             <table>
                 <tr>
