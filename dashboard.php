@@ -40,7 +40,7 @@
                 <ul>
                     <li><a href="inclusao/clientes.php">Clientes</a>
                     <li><a href="#">Ordem Serviço</a>
-                    <li><a href="#">Usuários</a>
+                    <li><a href="inclusao/usuario.php">Usuários</a>
                 </ul>
             </li>    
             <li><a href="#">consultas</a>
