@@ -51,7 +51,7 @@
             </li>    
             <li><a href="#">Relatório</a>
                 <ul>
-                    <li><a href="#">Clientes</a>
+                    <li><a href="relatorios/relclientes.php">Clientes</a>
                     <li><a href="#">Ordem Serviço</a>
                 </ul>
             </li>    
